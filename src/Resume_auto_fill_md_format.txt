@@ -1,96 +1,91 @@
-# Dinesh Sagar
+# Rahul Verma
 
-**Phone:** +91-8121909150  
-**Mail:** dineshsagar643@gmail.com  
-**GitHub:** https://github.com/johndoe775  
-**LinkedIn:** https://linkedin.com/in/dineshsagar643 
+**Phone:** +91-9876543210
+**Mail:** [rahul.verma@email.com](mailto:rahul.verma@email.com)
+**GitHub:** https://github.com/rahuldev123
+**LinkedIn:** https://linkedin.com/in/rahulverma
+
 ## Address
 
-**Address Line 1:** 18-5-209, Phool Bagh Chaman Road  
-**Address Line 2:** Aliabad  
-**Address Line 3:**   
-**City:** Hyderabad
-**State:** Telangana
-**Country:** India 
-**Postal Code:** 500053  
+**Address Line 1:** 12-4-178, MG Road
+**Address Line 2:** Sector 5
+**Address Line 3:**
+**City:** Bangalore
+**State:** Karnataka
+**Country:** India
+**Postal Code:** 560001
 
-**Notice Period:** 90 days
+**Notice Period:** 60 days
 **Last Working Day:** -
-**Current CTC:** ₹19,25,000 per annum
-**Expected CTC:** ₹28,00,000 per annum
-**Gap in Education or Service**: 2014-2015 ( Long Term for JEE)
+**Current CTC:** ₹15,00,000 per annum
+**Expected CTC:** ₹22,00,000 per annum
+**Gap in Education or Service:** None
 **Offer in hand:** none
+
 ---
 
 ## Summary
 
-Passionate Data Scientist with a drive to tackle real-world challenges through data analysis and machine learning. Committed to extracting value from complex data and delivering actionable insights to inform business decisions and drive growth. Eager to continuously learn and improve to deliver impactful solutions.
+Data Scientist with experience in building scalable machine learning systems and data-driven applications. Skilled in data analysis, model deployment, and cloud-based solutions. Focused on delivering measurable business impact through AI and analytics.
 
 ---
+
 ## EXPERIENCE
-- Consultant (Mar 2026- Present, Deloitte)
-Engineered a federated search agent that unifies data retrieval across Google Drive, Salesforce, and Snowflake via native connectors and REST APIs, delivered through a Gemini Enterprise frontend.
-- Consultant (Feb 2025 – Mar 2026, Capgemini)
-  - Internal Project: Engineered an MCP server on the Databricks platform to compute real-time KPIs across data profiling, remediation, and quality assessment modules, enabling stakeholders to monitor data health metrics and reduce manual reporting efforts.
-  - Client: T-Mobile: Developed server-side MCP tools using Azure OpenAI and FastMCP to evaluate chatbot responses with an LLM-based judge.
-  - Client: Sanofi: Developed a deep learning computer vision model to analyze chemical structures for drug classification. Implemented a Siamese Network for molecule comparison to assess similarity between chemical compounds and evaluate the rate of completion of chemical reactions using intermediate compounds.
-- Quality Specialist (Jan 2020 - Dec 2024, Amazon Development Centre India)
-    - Implemented an outlier detection program to enhance address data quality, improving logistics performance for Amazon Logistics.
-    - Analyzed large-scale datasets using statistical methods to optimize delivery operations and resource planning.
-    - Built time series models to forecast peak order volumes, enabling proactive logistics management.
-    - Built machine learning models in AWS SageMaker to assess delivery agent performance and improve operational efficiency.
-    - Created interactive dashboards for real-time monitoring and actionable insights.
+
+* Senior Data Analyst (Jan 2025 – Present, Infosys)
+  Designed and deployed a federated search system integrating multiple enterprise data sources including cloud storage and CRM platforms using REST APIs and LLM-powered interfaces.
+
+* Data Scientist (Jul 2022 – Dec 2024, Wipro)
+
+  * Built NLP pipelines for automated document classification and summarization.
+  * Developed ML models for customer churn prediction improving retention by 18%.
+  * Implemented data pipelines on AWS for real-time analytics.
+
+* Analyst (Jun 2020 – Jun 2022, Cognizant)
+
+  * Conducted exploratory data analysis and feature engineering on large datasets.
+  * Developed dashboards using Power BI for business reporting.
 
 ---
-##PROJECTS
-- Generative AI Powered Data Assistants
-    - Career Assist Agent: Developed a Streamlit app leveraging LangGraph to generate personalized cold emails and tailored resumes from user resumes and job descriptions, improving job application efficiency by 60%.
-    - Medical RAG Agent: Built a medical chatbot using LangChain, Pinecone DB and Flask for real-time, context-driven medical query handling, achieving an average response accuracy of 93%.
-    - RAG Agent with ChromaDB: Engineered an intelligent recommendation system for reranking and content discovery, improving retrieval relevance by 22% compared to baseline keyword search.
-    - CSV Command Agent: Designed an AI-powered tool enabling natural language manipulation of CSV files and SQL query generation, reducing data processing time by 70%.
 
-- Named Entity Recognition (NER) in Tweets Using LSTM+CRF and BERT
-    - Developed a robust NER system for tweets using LSTM-CRF and BERT models.
-    - Initialized LSTM-CRF with Word2Vec embeddings and fine-tuned BERT for entity detection.
-    - Executed data preprocessing, hyperparameter optimization, and model evaluation, achieving an F1-score of 0.91 on a dataset of 10,000 tweets, enabling precise entity extraction from social media text.
+## PROJECTS
 
-- Delivery Time Estimation for Porter's Delivery Service
-    - Performed comprehensive data cleaning, feature engineering, and categorical encoding on over 1M delivery records.
-    - Designed, trained, and optimized a neural network model using TensorFlow and Keras.
-    - Achieved 92% accuracy in delivery time predictions, improving operational efficiency and customer satisfaction by 15%.
+* AI Resume Assistant
 
-- AdEase Wiki Page View Forecasting
-    - Forecasted Wikipedia page views to optimize ad placement across regions and languages.
-    - Applied ARIMA, SARIMAX, and Prophet models, integrating exogenous data for enhanced performance.
-    - Improved forecast accuracy by 18%, enabling 12% higher ROI through more effective ad targeting strategies.
+  * Built a system to generate personalized resumes and job-specific recommendations using LLMs.
+  * Improved job application efficiency by 50%.
 
-- ZEE Recommendation System
-    - Implemented a movie recommender system using Cosine and Pearson similarity metrics.
-    - Developed collaborative filtering and matrix factorization models to personalize content recommendations.
-    - Increased user engagement by 25%, leading to higher watch-time and improved content discovery.
+* Customer Segmentation Engine
 
-- LoanTap Creditworthiness Model
-    - Built a Logistic Regression model for assessing loan applicant creditworthiness.
-    - Conducted precision-recall analysis and generated ROC AUC reports, achieving an ROC-AUC of 0.87.
-    - Delivered actionable insights that improved loan approval accuracy by 20% and reduced false positives in credit evaluation.
+  * Implemented clustering models (KMeans, DBSCAN) for targeted marketing.
+  * Increased campaign effectiveness by 20%.
+
+* Time Series Forecasting System
+
+  * Built forecasting models using ARIMA and Prophet for demand prediction.
+  * Improved accuracy by 15%.
+
+* Recommendation System
+
+  * Developed collaborative filtering models for content recommendation.
+  * Increased user engagement by 22%.
+
 ---
 
 ## Certifications
 
-### Scaler
-- Python Libraries, EDA Fundamentals
-- Supervised & Unsupervised Learning
-- Natural Language Processing, Computer Vision
-
 ### Coursera
-- MLOps Platforms: Amazon SageMaker and Azure ML
-- MLOps Tools: MLflow and Hugging Face 
-- DevOps, DataOps, MLOps 
-- Python Essentials for MLOps 
+
+* Machine Learning Specialization
+* Deep Learning Specialization
+
+### Udemy
+
+* Python for Data Science
+* Data Engineering Fundamentals
 
 ---
 
 ## Education
 
-- **Scaler:** Data Science and Machine Learning, 2024
-- **Chaitanya Bharathi Institute of Technology:** BS/ B.E / Graduate (Mechanical), 2015 - 2019
+* **XYZ Institute of Technology:** B.Tech in Computer Science, 2016 – 2020
