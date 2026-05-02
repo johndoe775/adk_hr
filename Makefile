@@ -23,5 +23,5 @@ lint:
 	python3 -m pylint **/*.py
 
 run:
-	python -c "from dotenv import load_dotenv; load_dotenv(); import subprocess; subprocess.run(['adk', 'web'])"
+	adk web
 
