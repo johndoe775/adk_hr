@@ -15,11 +15,11 @@
 **Postal Code:** 500053  
 
 **Notice Period:** Immediately available to join
-**Last Working Day:** 12th March 2026
-**Current CTC:** ₹12,00,000 per annum
-**Expected CTC:** ₹25,00,000 per annum
+**Last Working Day:** -
+**Current CTC:** ₹19,25,000 per annum
+**Expected CTC:** ₹28,00,000 per annum
 **Gap in Education or Service**: 2014-2015 ( Long Term for JEE)
-**Offer in hand:** Deloitte (21.175 LPA) and Accenture (24.64 LPA)
+**Offer in hand:** none
 ---
 
 ## Summary
@@ -28,6 +28,8 @@ Passionate Data Scientist with a drive to tackle real-world challenges through d
 
 ---
 ## EXPERIENCE
+- Consultant (Mar 2026- Present, Deloitte)
+Engineered a federated search agent that unifies data retrieval across Google Drive, Salesforce, and Snowflake via native connectors and REST APIs, delivered through a Gemini Enterprise frontend.
 - Consultant (Feb 2025 – Mar 2026, Capgemini)
   - Internal Project: Engineered an MCP server on the Databricks platform to compute real-time KPIs across data profiling, remediation, and quality assessment modules, enabling stakeholders to monitor data health metrics and reduce manual reporting efforts.
   - Client: T-Mobile: Developed server-side MCP tools using Azure OpenAI and FastMCP to evaluate chatbot responses with an LLM-based judge.
