@@ -160,6 +160,90 @@ This project demonstrates ADK capabilities for:
 - **HR Documentation**: Converting unstructured documents into structured formats
 - **Compliance & Record-Keeping**: Ensuring consistent HR data standards
 
+## Why You Should Use ADK HR Trials
+
+ADK HR Trials tackles real career automation challenges. Here are specific use cases:
+
+### 1. 📧 **Writing Cold Mails to HR for Job Requests**
+Generate personalized and generic job inquiry emails effortlessly.
+
+**What it does:**
+- Creates tailored cold emails to hiring managers or HR departments
+- Generates both personalized versions (targeting specific companies/roles) and generic templates
+- Adapts tone based on company culture and position level
+- Includes call-to-action and follow-up timing recommendations
+
+**Example:**
+```
+Input: Your resume, target company, job role, company info
+Output: Multiple email drafts ready to send
+```
+
+---
+
+### 2. 📄 **Rewriting Your Resume to Match Job Descriptions**
+Automatically tailor your resume to align with job descriptions you're applying for.
+
+**What it does:**
+- Analyzes job descriptions for key skills, keywords, and requirements
+- Reorganizes and rewrites your resume to emphasize relevant experience
+- Maintains authenticity while highlighting the best-fit qualifications
+- Optimizes for ATS (Applicant Tracking Systems) with proper formatting
+- Generates multiple versions optimized for different roles
+
+**Example:**
+```
+Input: Your resume + Job description
+Output: Tailored resume highlighting matching skills and experience
+```
+
+---
+
+### 3. 💬 **Replying to HR with Follow-up Question Answers**
+Craft professional responses to HR inquiries based on your resume and background.
+
+**What it does:**
+- Generates thoughtful, resume-backed answers to common HR questions
+- Maintains consistency with your professional background
+- Provides multiple tone variations (formal, friendly, enthusiastic)
+- Suggests follow-up questions to ask back
+- Ensures answers align with job requirements
+
+**Common Questions Handled:**
+- "Tell us about your experience with [skill]"
+- "Why are you interested in our company?"
+- "How do you handle [situation]?"
+- "Where do you see yourself in 5 years?"
+
+**Example:**
+```
+Input: Your resume + HR question
+Output: 2-3 professional answer options ready to personalize
+```
+
+---
+
+### 4. 🔗 **Drafting LinkedIn Post Applications**
+Create compelling email drafts when applying for positions posted on LinkedIn.
+
+**What it does:**
+- Converts LinkedIn job posts into structured applications
+- Drafts personalized emails for the hiring manager or recruiter
+- Incorporates key details from the job posting
+- Creates LinkedIn connection requests with context
+- Suggests post engagement strategies before applying
+
+**Example:**
+```
+Input: LinkedIn job posting URL + Your resume + LinkedIn profile
+Output: 
+  - Personalized application email
+  - Connection request message
+  - Follow-up strategy timing
+```
+
+---
+
 ## Best Practices When Using ADK
 
 1. **Prompt Engineering**: Spend time crafting clear, specific prompts in your YAML files

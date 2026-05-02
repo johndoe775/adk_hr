@@ -78,7 +78,7 @@ for name, cfg in data.items():
 # Root agent
 root_agent = Agent(
     name="root_orchestrator",
-    model="gemini-2.5-flash",
+    model="gemini-3.1-flash-lite-preview",
     instruction=f"""
 You are a coordinator agent responsible for delegating tasks to sub-agents.
 
