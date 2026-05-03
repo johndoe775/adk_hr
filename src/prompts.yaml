@@ -2,18 +2,25 @@ resume_and_job_decription_rewrite:
   tool_use_case: "use this tool to rewrite a resume based on a job description provided."
   prompt: |
     """
-    Rewrite the following resume to match the job description provided:
+    Rewrite the following resume to match the provided job description.
     
-    Resume: {resume}
+    [INPUTS]
+    Resume: 
+    {resume}
     
-    Job Description: {job_description}
+    Job Description: 
+    {job_description}
     
-    Instructions:
-    1) Use the available experience, projects, and skills to rewrite the resume.
-    2) Don't Halucinate.
-    3) Don't use any external data but only the resume and job description.
-    4) Don't mention any comments or notes and preamble in the response.
-    5) Give the output in markdown format with proper orientation and formatting.
+    [INSTRUCTIONS]
+    1. Base your rewrite primarily on the 'Experience' and 'Projects' sections, making them the main highlight of the resume.
+    2. Use only the available experience, projects, and skills from the original resume.
+    3. Do not hallucinate or use any external data.
+    4. Highlight and emphasize the parts of the resume that best align with the job description.
+    
+    [OUTPUT FORMATTING]
+    - Provide the output in Markdown format.
+    - Ensure the final output is presented in a neat, clean, and highly structured resume format (e.g., clear headers, bullet points, and well-organized sections).
+    - Do not include any comments, notes, or preamble in the response. Output ONLY the rewritten resume.
     """
   inputs:
     {"resume":"resume", "job_description":"job_description"}
@@ -22,24 +29,29 @@ cold_mail_and_person_info:
   tool_use_case: "use this tool to write a professional and inquisitive cold mail tailored to a personal information of the recruiter, seeking job opportunities."
   prompt: |
     """
-    Using the following resume, write a professional and inquisitive cold mail tailored to the personal information of the recruiter, seeking job opportunities
-    Make sure that the entire message is conveyed in not more than 5 lines:
+    Write a professional and inquisitive cold email seeking job opportunities, tailored to the recruiter's personal information, based on the provided resume.
 
-    Resume: {resume}
+    [INPUTS]
+    Resume: 
+    {resume}
 
-    Person Information of the recruiter: {personal_info}
+    Recruiter's Personal Information: 
+    {personal_info}
 
-    Instructions:
-   
-    1) Start with the salutation "Hi,"
-    2) Write in the first person.
-    3) Utilize only the experience, projects, and skills from the resume to craft the email; do not include any external data or assumptions.
-    4) Maintain a professional and inquisitive tone, expressing interest in job opportunities.
-    5) Do not include any comments or preamble in the response.
-    7) Conclude with "Regards," followed by the name of the person whose resume is being used.
-    8) Format the output in markdown as an email with proper orientation and paragraphing.
+    [INSTRUCTIONS]
+    1. Write in the first person.
+    2. Make the candidate's 'Experience' and 'Projects' the main highlight of the email to demonstrate their value.
+    3. Utilize only the experience, projects, and skills from the resume, along with the recruiter's personal info. Do not hallucinate or assume external data.
+    4. Maintain a professional and inquisitive tone.
+    5. The entire message must be conveyed in no more than 5 lines.
+    6. Start with the salutation "Hi,".
+    7. Conclude with "Regards," followed by the name of the person from the resume.
+    
+    [OUTPUT FORMATTING]
+    - Structure the response strictly as an email without any preamble, comments, or meta-text.
+    - Ensure the final output is presented as a neat, clean, and highly structured email.
+    - Include proper spacing for the greeting, distinct readable paragraphs for the body, and a clear sign-off.
     """
-  
   inputs:
     {"resume":"resume", "personal_info":"personal_info"} 
 
@@ -47,23 +59,27 @@ cold_mail_no_personal_info:
   tool_use_case: "use this tool to write a generic professional and inquisitive cold mail seeking job opportunities without any personal information about the recipient."
   prompt: |
     """
-    Using the following resume, write a generic professional and inquisitive cold mail seeking job opportunities ,Make sure that the entire message is conveyed in not more than 5 lines. No personal information about the recipient is provided.
+    Write a generic, professional, and inquisitive cold email seeking job opportunities based on the provided resume. 
+    There is no personal information available about the recipient.
 
-    Resume: {resume}
+    [INPUTS]
+    Resume: 
+    {resume}
 
-    Instructions:
-    -1) Start with salutaion Hi,
-    0) write in first person.
-    1) Use the available experience, projects, and skills from the resume to write the cold mail.
-    2) The tone must be professional and inquisitive, seeking job opportunities.
-    3) Don't hallucinate.
-    4) Don't use any external data but only the resume.
-    5) Don't mention any comments and preamble in the response.
-    7) End with regards and the name of ther person whose resume is being used.
-    8) Give the output in markdown format in email format with proper orientation and use regards as ending greeeting followed by the name of the person from the resume
-    9)Make sure that mail is properly paragraphed and formatted.
+    [INSTRUCTIONS]
+    1. Write in the first person.
+    2. Make the candidate's 'Experience' and 'Projects' the main highlight of the email to strongly pitch their profile.
+    3. Use only the available experience, projects, and skills from the resume. Do not hallucinate or use external data.
+    4. The tone must be professional and inquisitive, aimed at seeking job opportunities.
+    5. The entire message must be conveyed in no more than 5 lines.
+    6. Start with the salutation "Hi,".
+    7. End with "Regards," followed by the name of the person from the resume.
+    
+    [OUTPUT FORMATTING]
+    - Structure the response strictly as an email without any preamble, comments, or meta-text.
+    - Ensure the final output is properly paragraphed and highly structured.
+    - Include proper spacing for the greeting, distinct readable paragraphs for the body, and a clear sign-off.
     """
-  
   inputs:
     {"resume":"resume"}
 
@@ -71,24 +87,27 @@ followup_mail_from_resume:
   tool_use_case: "use this tool to write a professional follow-up email answering questions related to a resume."
   prompt: |
     """
-    Write a professional follow-up email that answers the questions below using only the information provided in the resume.
+    Write a professional follow-up email that answers the provided questions using only the information from the resume.
 
-    Resume: {resume}
+    [INPUTS]
+    Resume: 
+    {resume}
     
-    Questions: {questions}
+    Questions: 
+    {questions}
 
-    Instructions:
-    1) Use only the content, experience, and skills from the resume to answer each question clearly and concisely.
-    2) Maintain a polite, professional, and confident tone.
-    3) Structure the response as an email.
-    4) Start with the salutation "Hi,".
-    5) Directly address each question in an organized, readable format.
-    6) Do not hallucinate or include any information not found in the resume.
-    7) Do not include any comments, preamble, or meta text in the response.
-    8) End with "Regards," followed by the name from the resume.
-    9) Ensure proper formatting and readability in markdown (e.g., paragraphs, line breaks).
-    10) Do not use any markdown symbols such as **, *, or - in the output. 
-        Instead, use tabs or indentation to organize the answers clearly.
+    [INSTRUCTIONS]
+    1. Use only the content, experience, and skills from the resume to answer each question clearly and concisely. Do not hallucinate or include outside information.
+    2. Where applicable, use the candidate's 'Experience' and 'Projects' as the primary examples to support the answers.
+    3. Maintain a polite, professional, and confident tone.
+    4. Start with the salutation "Hi,".
+    5. Directly address each question in an organized manner.
+    6. End with "Regards," followed by the name from the resume.
+    
+    [OUTPUT FORMATTING]
+    - Structure the response strictly as an email without any preamble, comments, or meta-text.
+    - Do not use Markdown symbols such as **, *, or - in the output. Instead, use clean spacing, tabs, or indentation.
+    - Ensure the final output is a neat, clean, and highly structured email with clear spacing separating the answers distinctively.
     """
   inputs:
     {"resume": "resume", "questions": "questions"}
@@ -99,23 +118,26 @@ apply_mail_from_linkedin_post:
     """
     Write a professional email (maximum five lines) applying for a job mentioned in a LinkedIn post.
 
-    Resume: {resume}
-    Job Post Description: {job_post}
+    [INPUTS]
+    Resume: 
+    {resume}
+    
+    Job Post Description: 
+    {job_post}
 
-    Instructions:
-    1) Use only the relevant experience, skills, and achievements from the resume that match the job description.
-    2) Keep the email concise (no more than five lines total).
-    3) Maintain a polite, confident, and professional tone suitable for a job application.
-    4) Start with the salutation "Hi,".
-    5) Mention that the job was seen on LinkedIn and express clear interest in the position and show brief alignment with the role.
-    6) End with "Regards," 
-    7)followed by the candidate’s name from the resume in the next line.
-    8)  Ensure proper formatting and readability in markdown (e.g., paragraphs, line breaks).
-    9) Do not use any markdown symbols such as **, *, or - in the output. 
-    10)Instead, use tabs or indentation to organize the answers clearly..
-    11) Structure the email appropriately with a clear beginning, middle, and end.
+    [INSTRUCTIONS]
+    1. Base your email heavily on the 'Experience' and 'Projects' sections of the resume to demonstrate alignment with the job description. Make them the main highlight.
+    2. Use only the relevant experience, skills, and achievements from the resume that match the job description.
+    3. Keep the email concise (no more than five lines total).
+    4. Maintain a polite, confident, and professional tone suitable for a job application.
+    5. Mention that the job was seen on LinkedIn, express clear interest in the position, and show brief alignment with the role.
+    6. Start with the salutation "Hi,".
+    7. Conclude with "Regards," followed by the candidate’s name from the resume on the next line.
+    
+    [OUTPUT FORMATTING]
+    - Present the final output as a neat, clean, and highly structured email without any preamble or comments.
+    - Include proper spacing for the greeting, distinct readable paragraphs for the body, and a clear sign-off.
+    - Do not use any Markdown symbols such as **, *, or - in the output. Use spacing or indentation to organize clearly.
     """
   inputs:
     {"resume": "resume", "job_post": "job_post"}
-
-
