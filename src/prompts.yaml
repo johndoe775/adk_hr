@@ -19,7 +19,9 @@ resume_and_job_decription_rewrite:
     
     [OUTPUT FORMATTING]
     - Provide the output in Markdown format.
-    - Ensure the final output is presented in a neat, clean, and highly structured resume format (e.g., clear headers, bullet points, and well-organized sections).
+    - Use bullet points (•) for all Experience, Projects, Skills, and other list items.
+    - Ensure each section has clear headers followed by well-organized bullet points.
+    - Maintain a neat, clean, and highly structured resume format with proper spacing.
     - Do not include any comments, notes, or preamble in the response. Output ONLY the rewritten resume.
     """
   inputs:
@@ -49,6 +51,7 @@ cold_mail_and_person_info:
     
     [OUTPUT FORMATTING]
     - Structure the response strictly as an email without any preamble, comments, or meta-text.
+    - Use bullet points (•) to highlight key strengths, experiences, or accomplishments where appropriate within the email body.
     - Ensure the final output is presented as a neat, clean, and highly structured email.
     - Include proper spacing for the greeting, distinct readable paragraphs for the body, and a clear sign-off.
     """
@@ -77,6 +80,7 @@ cold_mail_no_personal_info:
     
     [OUTPUT FORMATTING]
     - Structure the response strictly as an email without any preamble, comments, or meta-text.
+    - Use bullet points (•) to highlight key strengths, experiences, or accomplishments where appropriate within the email body.
     - Ensure the final output is properly paragraphed and highly structured.
     - Include proper spacing for the greeting, distinct readable paragraphs for the body, and a clear sign-off.
     """
@@ -106,7 +110,8 @@ followup_mail_from_resume:
     
     [OUTPUT FORMATTING]
     - Structure the response strictly as an email without any preamble, comments, or meta-text.
-    - Do not use Markdown symbols such as **, *, or - in the output. Instead, use clean spacing, tabs, or indentation.
+    - Use bullet points (•) to structure and organize answers when providing multiple points or examples.
+    - Do not use excessive Markdown symbols; keep formatting clean and professional with bullet points for list items only.
     - Ensure the final output is a neat, clean, and highly structured email with clear spacing separating the answers distinctively.
     """
   inputs:
@@ -136,8 +141,9 @@ apply_mail_from_linkedin_post:
     
     [OUTPUT FORMATTING]
     - Present the final output as a neat, clean, and highly structured email without any preamble or comments.
+    - Use bullet points (•) where appropriate to highlight key qualifications or experiences that align with the job.
     - Include proper spacing for the greeting, distinct readable paragraphs for the body, and a clear sign-off.
-    - Do not use any Markdown symbols such as **, *, or - in the output. Use spacing or indentation to organize clearly.
+    - Keep the formatting clean and professional with bullet points used only for organized list items.
     """
   inputs:
     {"resume": "resume", "job_post": "job_post"}
