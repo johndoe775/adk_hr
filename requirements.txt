@@ -2,3 +2,4 @@ pylint
 google-adk
 python-dotenv
 litellm
+google-genai
