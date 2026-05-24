@@ -26,7 +26,7 @@ PROMPTS_FILE = PROJECT_ROOT / "src" / "prompts.yaml"
 
 RESUME_FILE = (
     PROJECT_ROOT
-    / "my_data"
+    / "src"
     / "Resume_auto_fill_md_format.txt"
 )
 
