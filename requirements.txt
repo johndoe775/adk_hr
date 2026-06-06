@@ -3,3 +3,5 @@ google-adk
 python-dotenv
 litellm
 google-genai
+pypdf
+python-docx
